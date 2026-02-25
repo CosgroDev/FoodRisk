@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Risk | Platform Hub</title>
+    <meta
+      name="description"
+      content="One homepage for Food Risk tools: Watch, HACCP Flow, and Quality."
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                50: "#eef1fb",
+                100: "#d5dcf5",
+                500: "#284ED5",
+                600: "#2441BB",
+                700: "#1e37a0",
+              },
+              brand: {
+                blue: "#284ED5",
+                darkBlue: "#2441BB",
+                teal: "#0F766E",
+                text: "#343636",
+                muted: "#9EA6B2",
+                tint3: "#93ABE9",
+                tint4: "#B3C6F0",
+              },
+            },
+            boxShadow: {
+              soft: "0 10px 26px rgba(15,23,42,0.06)",
+              pop: "0 12px 28px rgba(36,65,187,0.25)",
+            },
+            fontFamily: {
+              sans: ["Aptos", "Inter", "Segoe UI", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="m-0 min-h-screen bg-slate-50 font-sans text-brand-text antialiased">
+    <div class="bg-primary-600 px-6 py-2 text-center text-xs text-white">
+      <span class="inline-flex items-center gap-2">
+        <span class="h-2 w-2 rounded-full bg-brand-tint3"></span>
+        <span><strong>FoodRisk Watch is paid.</strong> HACCP Flow and Quality are currently free in beta.</span>
+      </span>
+    </div>
+
+    <header class="mx-auto flex h-14 w-full max-w-6xl items-center justify-between border-b border-slate-200 bg-white px-6">
+      <div class="flex items-center gap-2.5">
+        <div class="flex h-8 w-8 items-center justify-center rounded-xl bg-primary-600">
+          <img src="./logo.svg" alt="Food Risk logo" class="h-4 w-4" />
+        </div>
+        <span class="text-base font-bold text-primary-600">
+          Food Risk <span class="font-normal text-brand-muted">|</span> Platform Hub
+        </span>
+      </div>
+      <a
+        class="inline-flex items-center justify-center whitespace-nowrap rounded-lg bg-primary-600 px-2.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-primary-700 sm:px-4 sm:py-2 sm:text-sm"
+        href="mailto:info@foodrisk.co.uk"
+      >
+        <span class="sm:hidden">Contact</span>
+        <span class="hidden sm:inline">Contact Team</span>
+      </a>
+    </header>
+
+    <main class="min-h-screen bg-white">
+      <section class="mx-auto flex w-full max-w-6xl flex-col lg:flex-row">
+        <div class="flex flex-col justify-center bg-gradient-to-b from-primary-500 to-primary-600 px-8 py-12 text-white lg:w-[58%] lg:px-16 lg:py-16">
+          <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-brand-tint3">Unified Food Risk Access</p>
+          <h1 class="mb-4 text-3xl font-bold leading-tight md:text-4xl">One home for your food safety and quality tools</h1>
+          <p class="mb-8 text-base leading-relaxed text-brand-tint4">
+            Launch each platform from a single landing page, with clear product status,
+            purpose, and links for your team.
+          </p>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="flex gap-3">
+              <div class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-white/10">
+                <img src="./logo.svg" alt="FoodRisk Watch logo" class="h-4 w-4" />
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-white">FoodRisk Watch</p>
+                <p class="text-xs leading-relaxed text-brand-tint4">Paid alert intelligence with configurable monitoring preferences.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <div class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-white/10">
+                <img src="./logo.svg" alt="HACCP Flow logo" class="h-4 w-4" />
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-white">HACCP Flow</p>
+                <p class="text-xs leading-relaxed text-brand-tint4">Free beta digital HACCP planning and audit-ready export.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <div class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-white/10">
+                <img src="./logo.svg" alt="Quality logo" class="h-4 w-4" />
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-white">Quality</p>
+                <p class="text-xs leading-relaxed text-brand-tint4">Free beta barcode-led quality checks and NC workflows.</p>
+              </div>
+            </div>
+            <div class="flex gap-3">
+              <div class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-white/10">
+                <img src="./logo.svg" alt="Food Risk logo" class="h-4 w-4" />
+              </div>
+              <div>
+                <p class="text-sm font-semibold text-white">Shared Brand Pattern</p>
+                <p class="text-xs leading-relaxed text-brand-tint4">Consistent UI language across all Food Risk products.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center bg-slate-50 px-8 py-12 lg:w-[42%] lg:px-12">
+          <div class="w-full space-y-4">
+            <div class="space-y-1 text-center">
+              <div class="mx-auto mb-2 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-600 shadow-md">
+                <img src="./logo.svg" alt="Food Risk logo" class="h-6 w-6" />
+              </div>
+              <h2 class="text-xl font-bold text-slate-800">Open a Food Risk Tool</h2>
+              <p class="text-sm text-slate-500">Choose the platform you need right now.</p>
+            </div>
+            <div class="rounded-xl border border-slate-200 bg-white p-5 shadow-soft">
+              <div class="space-y-3">
+                <a class="block rounded-lg border border-teal-100 bg-teal-50 px-4 py-3 text-sm font-semibold text-brand-teal" href="https://watch.foodrisk.co.uk/" target="_blank" rel="noreferrer">FoodRisk Watch (Paid)</a>
+                <a class="block rounded-lg border border-primary-100 bg-primary-50 px-4 py-3 text-sm font-semibold text-primary-700" href="https://haccp.foodrisk.co.uk" target="_blank" rel="noreferrer">HACCP Flow (Free Beta)</a>
+                <a class="block rounded-lg border border-primary-100 bg-primary-50 px-4 py-3 text-sm font-semibold text-primary-700" href="https://quality.foodrisk.co.uk/" target="_blank" rel="noreferrer">Quality (Free Beta)</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="border-t border-slate-200 bg-white px-6 py-14">
+        <div class="mx-auto max-w-6xl rounded-2xl border border-primary-100 bg-primary-50 p-8">
+          <p class="text-xs font-semibold uppercase tracking-widest text-primary-600">Why Food Risk</p>
+          <h2 class="mt-2 text-2xl font-bold text-slate-900">Built by someone who has lived the day-to-day reality</h2>
+          <p class="mt-4 max-w-4xl text-sm leading-relaxed text-slate-700">
+            Food Risk is built by a solo developer with 10+ years working in food safety and quality departments,
+            focused on process improvement, audit readiness, and practical compliance routines in real operations.
+            The tools are shaped by direct experience of common pain points: fragmented systems, manual workarounds,
+            and expensive software that forces teams into rigid workflows.
+          </p>
+          <p class="mt-3 max-w-4xl text-sm leading-relaxed text-slate-700">
+            The goal is simple: provide modern, practical tools without locking businesses into mega-corporation cost
+            profiles. Our modular model means separate subscriptions per product, so you can adopt only what you need,
+            switch as your business evolves, and keep control of your stack.
+          </p>
+        </div>
+      </section>
+
+      <section class="border-t border-slate-200 bg-white px-6 py-16">
+        <div class="mx-auto max-w-6xl">
+          <div class="mb-10 text-center">
+            <span class="mb-3 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-widest text-primary-600">
+              Product Overview
+            </span>
+            <h2 class="mb-2 text-2xl font-bold text-slate-900">Detailed tool information</h2>
+            <p class="mx-auto max-w-2xl text-sm text-slate-500">
+              Each platform solves a specific part of your food safety and quality workflow.
+            </p>
+          </div>
+
+          <div class="grid gap-6 md:grid-cols-3" aria-label="Product links">
+            <article class="rounded-2xl border border-teal-100 bg-teal-50 p-6">
+              <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-brand-teal">
+                <img src="./logo.svg" alt="FoodRisk Watch logo" class="h-4 w-4" />
+              </div>
+              <h3 class="mb-2 font-semibold text-slate-900">FoodRisk Watch</h3>
+              <p class="text-sm leading-relaxed text-slate-600">
+                Paid service focused on food alert surveillance and targeted distribution.
+                Designed for teams who need actionable signal instead of noise.
+              </p>
+              <ul class="mt-3 list-disc space-y-1 pl-4 text-xs text-slate-600">
+                <li>Tailored alerts by hazard, category, and geography</li>
+                <li>Digest-friendly updates for operational teams</li>
+                <li>Live app: watch.foodrisk.co.uk</li>
+              </ul>
+              <a class="mt-4 inline-flex items-center rounded-lg bg-brand-teal px-4 py-2 text-sm font-semibold text-white hover:bg-teal-800" href="https://watch.foodrisk.co.uk/" target="_blank" rel="noreferrer">Open FoodRisk Watch</a>
+            </article>
+
+            <article class="rounded-2xl border border-primary-100 bg-primary-50 p-6">
+              <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary-600">
+                <img src="./logo.svg" alt="HACCP Flow logo" class="h-4 w-4" />
+              </div>
+              <h3 class="mb-2 font-semibold text-slate-900">HACCP Flow</h3>
+              <p class="text-sm leading-relaxed text-slate-600">
+                Free beta platform for creating and maintaining living HACCP plans
+                with verification records and export-ready outputs.
+              </p>
+              <ul class="mt-3 list-disc space-y-1 pl-4 text-xs text-slate-600">
+                <li>Process flow and hazard analysis structure</li>
+                <li>CCP/OPRP control documentation</li>
+                <li>Live app: haccp.foodrisk.co.uk</li>
+              </ul>
+              <a class="mt-4 inline-flex items-center rounded-lg bg-primary-600 px-4 py-2 text-sm font-semibold text-white hover:bg-primary-700" href="https://haccp.foodrisk.co.uk" target="_blank" rel="noreferrer">Open HACCP Flow</a>
+            </article>
+
+            <article class="rounded-2xl border border-primary-100 bg-primary-50 p-6">
+              <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-primary-600">
+                <img src="./logo.svg" alt="Quality logo" class="h-4 w-4" />
+              </div>
+              <h3 class="mb-2 font-semibold text-slate-900">Quality</h3>
+              <p class="text-sm leading-relaxed text-slate-600">
+                Free beta quality management app that links checks to products,
+                captures evidence, and supports non-conformance workflows.
+              </p>
+              <ul class="mt-3 list-disc space-y-1 pl-4 text-xs text-slate-600">
+                <li>Barcode-driven product checks</li>
+                <li>RAG scoring and corrective actions</li>
+                <li>Live app: quality.foodrisk.co.uk</li>
+              </ul>
+              <a class="mt-4 inline-flex items-center rounded-lg bg-primary-600 px-4 py-2 text-sm font-semibold text-white hover:bg-primary-700" href="https://quality.foodrisk.co.uk/" target="_blank" rel="noreferrer">Open Quality</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-100 bg-white px-6 py-4">
+      <div class="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 text-xs text-brand-muted">
+        <span class="font-semibold text-primary-600">Food Risk | Platform Hub</span>
+        <p>&copy; <span id="year"></span> Food Risk. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
